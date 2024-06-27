@@ -1,0 +1,139 @@
+.head {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+
+
+
+}
+
+s {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  transition: 0.5s;
+  font-style: italic;
+  width: 250px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  background-size: 400%;
+}
+
+
+.navbar li a:hover {
+  color: green;
+
+}
+
+.whats {
+  background: #25d366;
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.inst {
+  background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+/* -----------BODy-------- */
+.demo1 {
+  margin-left: 100px;
+  border-radius: 10px;
+
+
+}
+
+.demo1,
+a {
+  text-decoration: dashed;
+  color: white;
+
+}
+
+/* ----------OUR Service------------ */
+
+
+/* ----------OUR CLIENT------------ */
+.our:hover,
+.our:active {
+  text-decoration: underline;
+
+
+}
+
+.slider-area {
+  text-align: center;
+  font-family: Impact;
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 100px 0 30px 0;
+
+}
+
+.wrapper {
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 100px;
+  padding: 2.5rem;
+  background: #ddd;
+  box-shadow: rgb(0, 0, 0, 0.35)0 5px 15px;
+}
+
+/* ----------Footer---------- */
+
+
+
+.item {
+  animation: animate 25s alternate linear infinite;
+}
+
+.wrapper:hover .item {
+  animation-play-state: paused;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes animate {
+  100% {
+    transform: translate3d(-1100px, 0, 0);
+  }
+}
+
+@media (max-width:767px) {
+  .slider-area h2 {
+    font-size: 30px;
+  }
+
+  .wrapper {
+    width: 95%;
+    border-radius: 0;
+    padding: 2;
+  }
+}
