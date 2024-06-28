@@ -1,0 +1,241 @@
+.head {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+
+.body {
+  margin: 0%;
+  padding: 0%
+}
+
+.nav-link {
+  color: white;
+}
+
+.text {
+  background-color: white;
+}
+
+
+
+.navbar li a:hover {
+  color: pink;
+
+}
+
+#navbarSupportedContent ul {
+  text-align: center;
+}
+
+
+
+
+.login-button {
+
+  border: none;
+  color: rgb(168, 117, 179);
+
+  text-decoration: none;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+
+}
+
+
+.login-button a:hover {
+  color: white;
+}
+
+.talk-us {
+  background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 10px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+/* ------------Hero-Seaction--------- */
+.hero-main {
+
+  background-image: url('Img/Bg-img.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+  width: 1361px;
+  /* width: 101%; */
+
+}
+
+.text-style {
+
+  color: rgb(202, 86, 183);
+
+}
+
+.btn-secondary {
+  border-radius: 100px;
+  display: inline-block;
+  position: relative;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.8s;
+  box-sizing: border-box;
+  padding: 12px 23px;
+  font-size: 16px;
+  font-weight: 600;
+  background: 2px solid lightpink;
+  background-color: black;
+  border: 2px solid pink;
+}
+
+.hero-main .btn-secondary a:hover {
+  color: black;
+ 
+}
+
+/* --------------Four Key-section------------ */
+
+
+.card {
+  border-radius: 30px;
+}
+
+
+.Samosa-img {
+  border: 2px solid gray;
+  border-radius: 20px;
+  /* height: 100%; */
+  /* vertical-align: middle; */
+  max-width: 100%;
+  /* display: inline-block; */
+  /* box-sizing: border-box; */
+}
+
+
+.demand {
+  border-radius: 30px;
+  color: gray;
+  width: 30%;
+  /* margin: 2px; */
+  /* padding: 6px; */
+  float: left;
+
+}
+
+#upto {
+  color: rgb(202, 86, 183);
+}
+
+.daily {
+  border-radius: 30px;
+
+
+
+}
+
+#daily {
+  color: rgb(202, 86, 183);
+}
+
+.story {
+  border-radius: 30px;
+  /* float: right; */
+  align-items: center;
+  float: right;
+  border: 2px solid rgb(202, 86, 183);
+}
+/* ------------Footer------------- */
+.footer{
+  background-image: url("Img/black-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.footer-img{
+  padding-left: 50px;
+}
+.crest{
+  margin-top: 55px;
+  padding-left: 50px;
+}
+.copyright{
+  padding-left: 50px;
+  
+}
+
+/* -------------Carousel--------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
